@@ -264,8 +264,7 @@ header {
 .myself__img {
     width: 6rem;
     border-radius: 123px;
-    /* margin-bottom: 2rem; */
-    margin: 0px 6rem;
+    margin-bottom: 2rem;
 }
 
 .education__container {
