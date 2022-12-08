@@ -240,8 +240,8 @@ header {
 .myself__left {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: center;
+    text-align: justify;
 }
 
 .myself__foto {
@@ -313,6 +313,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    text-align: justify;
 }
 
 .project__foto {
@@ -715,6 +716,14 @@ header {
 
   .pos {
     display: none;
+  }
+
+  .myself__row {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .project__row {
+    grid-template-columns: repeat(1,1fr);
   }
 }
 
