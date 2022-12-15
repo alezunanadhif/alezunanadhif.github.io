@@ -667,6 +667,10 @@ header {
     margin-top: 6rem;
   }
 
+  .myself__foto {
+    margin-top: 3rem;
+  }
+
   a.btn__start {
     display: inline-block;
     border: 2px solid var(--color-bg2);
@@ -705,7 +709,6 @@ header {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
-    margin: 6rem;
   }
 
   .project__foto {
@@ -714,6 +717,10 @@ header {
     left: 138px;
     top: 38px;
     border-radius: 0px;
+    margin-top: 3rem;
+  }
+
+  .project__web {
     margin-top: 3rem;
   }
 
