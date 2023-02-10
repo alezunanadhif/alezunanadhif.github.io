@@ -14,17 +14,17 @@ html {
 }
 
 :root {
-  --color-primary: #61764b;
-  --color-lightblue: #8b94bc;
-  --color-bg1: #9ba17b;
-  --color-bg2: #fad6a5;
+  --color-1: #1A120B;
+  --color-2: #6B728E;
+  --color-bg1: #51557E;
+  --color-bg2: #EEEEEE;
   --transition: all 333ms ease;
 }
 
 body {
   font-family: "Comfortaa", cursive;
   color: black;
-  background: var(--color-bg1);
+  background: var(--color-bg2);
 
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -38,9 +38,12 @@ h1,
 h2,
 h3,
 h4,
-p,
-a {
+p {
   color: black;
+}
+
+a {
+  color: var(--color-bg1);
 }
 
 h2 {
@@ -54,7 +57,7 @@ img {
 }
 
 strong {
-  color: #fad6a5;
+  color: var(--color-bg1);
 }
 
 .container {
@@ -183,6 +186,17 @@ nav {
 
 /* Navbar End */
 
+.bg {
+  background-image: url(../img/bg.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
 /* Header */
 
 header {
@@ -203,14 +217,14 @@ header {
 }
 
 .header__title {
-  color: var(--color-bg2);
+  color: var(--color-bg1);
   font-size: 3rem;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
 .header__text {
-  color: var(--color-bg2);
+  color: var(--color-bg1);
   font-size: 1.3rem;
   margin-top: 1rem;
   width: auto;
@@ -272,7 +286,7 @@ header {
 }
 
 .education__container {
-  border: 1.7px solid #fad6a5;
+  border: 1.7px solid var(--color-bg1);
   padding: 1rem;
   border-radius: 0.8rem;
   margin: 6rem 5rem 5rem;
@@ -594,7 +608,7 @@ header {
 .footer {
   display: flex;
   height: 45px;
-  background-color: #fad6a5;
+  background-color: var(--color-2);
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -604,7 +618,7 @@ header {
 .footer-link {
   display: flex;
   font-weight: 600;
-  color: #7b7b7b;
+  color: var(--color-bg2);
 }
 
 /* End Contact */
