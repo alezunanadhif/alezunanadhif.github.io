@@ -251,7 +251,7 @@ header {
 
 .myself__row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-items: center;
   margin: 6rem;
 }
@@ -322,7 +322,7 @@ header {
 
 .project__row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-items: center;
   margin: 6rem;
 }
@@ -677,9 +677,6 @@ header {
 }
 
 @media screen and (max-width: 480px) {
-  .selain__navbar {
-    margin-top: 6rem;
-  }
 
   .myself__foto {
     margin-top: 3rem;
@@ -728,7 +725,6 @@ header {
   .project__foto {
     height: 312px;
     width: 260px;
-    left: 138px;
     top: 38px;
     border-radius: 0px;
     margin-top: 3rem;
