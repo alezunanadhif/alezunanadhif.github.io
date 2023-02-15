@@ -269,6 +269,7 @@ header {
   border-radius: 12px;
   cursor: pointer;
   transition: var(--transition);
+  margin: 2.3rem;
 }
 
 .myself__foto:hover {
@@ -338,21 +339,21 @@ header {
 .project__foto {
   height: 315.0003662109375px;
   width: 260.5667419433594px;
-  left: 1389px;
   top: 380px;
   border-radius: 0px;
   cursor: pointer;
   transition: var(--transition);
+  margin: 2.3rem;
 }
 
 .project__web {
   height: 315.0003662109375px;
   width: 260.5667419433594px;
-  left: 1389px;
   top: 380px;
   border-radius: 0px;
   cursor: pointer;
   transition: var(--transition);
+  margin: 2.3rem;
 }
 
 .project__foto:hover {
@@ -723,10 +724,6 @@ header {
   }
 
   .project__foto {
-    height: 312px;
-    width: 260px;
-    top: 38px;
-    border-radius: 0px;
     margin-top: 3rem;
   }
 
