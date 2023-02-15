@@ -14,10 +14,10 @@ html {
 }
 
 :root {
-  --color-1: #1A120B;
-  --color-2: #6B728E;
-  --color-bg1: #51557E;
-  --color-bg2: #EEEEEE;
+  --color-1: #1a120b;
+  --color-2: #6b728e;
+  --color-bg1: #51557e;
+  --color-bg2: #eeeeee;
   --transition: all 333ms ease;
 }
 
