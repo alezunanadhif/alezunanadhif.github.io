@@ -521,7 +521,7 @@ img {
    
   }
   .home__img {
-    width: 450px;
+    width: 450px
   }
 }
 
@@ -544,4 +544,11 @@ img {
   .project__container{
     margin: 0 20px;
   }
+}
+
+@media screen and (max-width: 576px) {
+  .home__img {
+    display: none;
+  }
+  
 }
