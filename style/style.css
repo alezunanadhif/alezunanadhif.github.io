@@ -344,27 +344,6 @@ img {
   margin: 2rem;
 }
 
-/* ===== CONTACT =====*/
-.contact__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
-}
-
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
@@ -438,13 +417,6 @@ img {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
-  }
-  .contact__form {
-    width: 360px;
-    padding-top: 2rem;
-  }
-  .contact__container {
-    justify-items: center;
   }
   .education__text {
   text-align: center;
@@ -538,9 +510,7 @@ img {
   .home{
     margin:50px;
   }
-  .about__container{
-    margin: 0 20px;
-  }
+
   .project__container{
     margin: 0 20px;
   }

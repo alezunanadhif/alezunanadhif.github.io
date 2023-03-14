@@ -28,7 +28,6 @@
                         <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
                         <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
                         <li class="nav__item"><a href="#certi" class="nav__link">Certification</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
 
@@ -205,19 +204,6 @@
                 </div>
             </section>
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action=""class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input" id="name">
-                        <input type="email" name="email" placeholder="Email" class="contact__input" id="email">
-                        <textarea name="" id="message" cols="0" rows="10" class="contact__input" placeholder="Your Message" ></textarea>
-                        <button class="contact__button button">SEND</button>
-                    </form>
-                </div>
-            </section>
     </main>
 
         <!--===== FOOTER =====-->
@@ -242,27 +228,5 @@
         <!--===== MAIN JS =====-->
         <script src="./js/main.js"></script>
 
-        <!-- SEND MAIL -->
-        <script src=" https://smtpjs.com/v3/smtp.js"></script>
-
-        <script type="module">
-            // Import the functions you need from the SDKs you need
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-            // TODO: Add SDKs for Firebase products that you want to use
-            // https://firebase.google.com/docs/web/setup#available-libraries
-
-            // Your web app's Firebase configuration
-            const firebaseConfig = {
-                apiKey: "AIzaSyAORxDTtXQvczUBmVWWoW5NCVAJIBl4iDw",
-                authDomain: "portofolio-905fe.firebaseapp.com",
-                projectId: "portofolio-905fe",
-                storageBucket: "portofolio-905fe.appspot.com",
-                messagingSenderId: "878886553324",
-                appId: "1:878886553324:web:c82674ede10dd6a76d87c9"
-            };
-
-            // Initialize Firebase
-            const app = initializeApp(firebaseConfig);
-            </script>
     </body>
 </html>
