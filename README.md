@@ -2,7 +2,7 @@
 
 > just a portfolio website
 
-One or two paragraphs about your project and what it does.
+My portfolio website contain about my self, my education, my project and etc.
 
 ---
 ## Author
