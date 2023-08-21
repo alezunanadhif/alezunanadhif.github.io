@@ -74,7 +74,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: #51557e;
+  color: #7D50EC;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -89,7 +89,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: #51557e;
+  background-color: #7D50EC;
 }
 
 .section {
@@ -168,7 +168,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #51557e;
+  background-color: #7D50EC;
 }
 
 
@@ -188,7 +188,7 @@ img {
 }
 
 .home__title-color {
-  color: #51557e;
+  color: #7D50EC;
 }
 
 .home__social {
@@ -204,7 +204,7 @@ img {
 }
 
 .home__social-icon:hover {
-  color: #51557e;
+  color: #7D50EC;
 }
 
 .home__img {
@@ -215,7 +215,7 @@ img {
 }
 
 .home__blob {
-  fill: #51557e;
+  fill: #7D50EC;
 }
 
 .home__blob-img {
@@ -225,7 +225,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: #51557e;
+  background-color: #7D50EC;
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -274,7 +274,7 @@ img {
 }
 
 .education__container {
-  border: 1.7px solid #51557e;
+  border: 1.7px solid #7D50EC;
   padding: 1rem;
   border-radius: 0.8rem;
   margin: 6rem 5rem 5rem;
