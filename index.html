@@ -1,118 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="./style/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./style/style.css">
 
-        <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon"/>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
-        <title>Portfolio — ?</title>
-    </head>
-    <body>
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
 
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <title>Portfolio — ?</title>
+</head>
+
+<body>
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">
+                    <img src="assets/alezunadhif.png" alt=""></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#certificate" class="nav__link">Certification</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <image class="home__blob-img" x="50" y="66" href="/assets/greeting.jpg" />
+                </svg>
+            </div>
+
+            <div class="home__data">
+                <h2 style="color: #7D50EC; ">Hai Everyone, I am <br>
+                    <span style="font-size: 30px; color: black;">Alezuna Nadhif</span></h2>
+                <h4>JUNIOR WEB DEVELOPER</h4>
+                <p>No One Knows Why I'm into You</p>
+                <p>RIGHT!</p></br>
+
+                <a href="/assets/CV Alezuna M Nadhif Pohan.pdf" class="button" download="CV Alezuna M Nadhif P">Download
+                    CV</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/alezuna-nadhif-022462248" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/alezunanadhif" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://g.dev/nadhif" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-google'></i></a>
+                <a href="https://www.youtube.com/@alezunanadhif" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-youtube'></i></a>
+            </div>
+
+
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="/assets/mee.png" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo">
-                        <img src="assets/alezunadhif.png" alt=""></a>
+                    <h2 class="about__subtitle">I'am Nadhif</h2>
+                    <p class="about__text">What's Up ! my Name is ALEZUNA M NADHIF POHAN .
+                        and usually they are call me NADHIF . I am often called by Chinese people. I don't know why they
+                        call me that, Im STUDENT at IDN Boarding School BOGOR Im 15 years old i was born on 17 - August
+                        - 2007, Im From North Sumatera, Medan City . and the one is my photo, i didn't think the photo
+                        was good 😖 .
+                    </p>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
-                        <li class="nav__item"><a href="#certificate" class="nav__link">Certification</a></li>
-                    </ul>
-                </div>
+        <!--===== EDUCATION =====-->
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <image class="home__blob-img" x="50" y="66" href="/assets/greeting.jpg"/>
-                    </svg>
-                </div>
-
-                <div class="home__data">
-                    <h2  style="color: #7D50EC; ">Hai Everyone, I am <br>
-                        <span style="font-size: 30px; color: black;">Alezuna Nadhif</span></h2>
-                        <h4>JUNIOR WEB DEVELOPER</h4>
-                        <p>No One Knows Why I'm into You</p>
-                    <p>RIGHT!</p></br>
-
-                    <a href="/assets/CV Alezuna Nadhif.pdf" class="button" download="CV Alezuna M Nadhif P">Download CV</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/alezuna-nadhif-022462248" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/alezunanadhif" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://g.dev/nadhif" target="_blank" class="home__social-icon"><i class='bx bxl-google' ></i></a>
-                    <a href="https://www.youtube.com/@alezunanadhif" target="_blank" class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
-                </div>
-
-                
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="/assets/me.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Nadhif</h2>
-                        <p class="about__text">What's Up ! my Name is ALEZUNA M NADHIF POHAN .
-                                                and usually they are call me NADHIF . I am often called by Chinese people. I don't know why they call me that, Im STUDENT at IDN Boarding School BOGOR Im 15 years old i was born on 17 - August - 2007, Im From North Sumatera, Medan City . and the one is my photo, i didn't think the photo was good 😖 .
-</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== EDUCATION =====-->
-            
-            <section>
-                <section class="skills section" id="education">
+        <section>
+            <section class="skills section" id="education">
                 <h2 class="section-title">Education</h2>
                 <div class="education__container__sklh">
-                <article class="education__container">
+                    <article class="education__container">
                         <img src="/assets/annahlu.png" alt="An-Nahlu" class="education__img">
                         <h4 class="myself__title">SD Islam An-Nahlu</h4>
                         <p class="education__text">
-                            SD Islam An-Nahlu is a primary school located at Jl. Syech Ismail I No.43, Teladan, Kec. Kota Kisaran Timur, Asahan Regency, North Sumatra, Indonesia.</p>
+                            SD Islam An-Nahlu is a primary school located at Jl. Syech Ismail I No.43, Teladan, Kec.
+                            Kota Kisaran Timur, Asahan Regency, North Sumatra, Indonesia.</p>
                     </article>
 
-                <article class="education__container">
-                    <img src="assets/rtmi.png" alt="RTMI" class="education__img">
-                    <h4 class="education__title">SMP RTMI</h4>
-                    <p class="education__text">
-                        When I was studying at the junior high school, I studied at Rumah Tahfizh Al-Qur'an Mutiara Ilmu Islamic Boarding School - Kisaran Regional Private Junior High School located in Kisaran, North Sumatra, Indonesia.</p>
-                </article>
-                
-                <article class="education__container">
-                    <img src="/assets/idn.png" alt="IDN" class="education__img">
-                    <h4 class="education__title">SMK IDN</h4>
-                    <p class="education__text">
-                        Until now I still attend this school, IDN has many branches in Indonesia starting from Jonggol, Bogor, Solo etc. And I started learning IT science while studying at IDN Bogor.</p>
-                </article>
-            </div>
+                    <article class="education__container">
+                        <img src="assets/rtmi.png" alt="RTMI" class="education__img">
+                        <h4 class="education__title">SMP RTMI</h4>
+                        <p class="education__text">
+                            When I was studying at the junior high school, I studied at Rumah Tahfizh Al-Qur'an Mutiara
+                            Ilmu Islamic Boarding School - Kisaran Regional Private Junior High School located in
+                            Kisaran, North Sumatra, Indonesia.</p>
+                    </article>
+
+                    <article class="education__container">
+                        <img src="/assets/idn.png" alt="IDN" class="education__img">
+                        <h4 class="education__title">SMK IDN</h4>
+                        <p class="education__text">
+                            Until now I still attend this school, IDN has many branches in Indonesia starting from
+                            Jonggol, Bogor, Solo etc. And I started learning IT science while studying at IDN Bogor.</p>
+                    </article>
+                </div>
             </section>
 
             <!--===== PROJECT =====-->
@@ -120,64 +135,112 @@
                 <h2 class="section-title">Project</h2>
 
                 <div class="project__container bd-grid">
-                    <div class="project__img">
-                        <img src="/assets/lsn.png" alt="">
-                    </div>
-                    
                     <div>
-                        <h2 class="project__subtitle">L S N</h2>
-                        <p class="project__text">I was Design this design on Figma and the Name of this design is LSN (Learn Something New) i think i was made many design but this design is different because i just need some hours to make it 😅 .
-                        </p>           
-                    </div>                                   
-                </div>
-
-                <div class="project__container bd-grid">
-                    <div class="project__img">
-                        <img src="assets/skillforge.png" alt="">
+                        <h2 class="project__subtitle">Portfolio Website</h2>
+                        <p class="project__text">Portfolio Website is my first website creation assignment when I
+                            studied at IDN Boarding School, I also asked for help from my friend when I created my
+                            portfolio website, I am happy that I finally created my first portfolio website.
+                        </p>
                     </div>
-                    
-                    <div>
-                        <h2 class="project__subtitle">Skill Forge</h2>
-                        <p class="project__text">UI/UX Skill Forge is an assignment that I did with my friend when we were assigned to teach at a school and this Skill Forge is the material we taught to them .
-                        </p>           
-                    </div>                                   
-                </div>
 
-                <div class="project__container bd-grid">
                     <div class="project__img">
                         <img src="assets/webporto.png" alt="">
                     </div>
-                    
-                    <div>
-                        <h2 class="project__subtitle">Portfolio Website</h2>
-                        <p class="project__text">Portfolio Website is my first website creation assignment when I studied at IDN Boarding School, I also asked for help from my friend when I created my portfolio website, I am happy that I finally created my first portfolio website.
-                        </p>           
-                    </div>                                   
-                </div>
-                
-                <div class="project__container bd-grid">
-                    <div class="project__img">
-                        <img src="assets/websch.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="project__subtitle">School's Website</h2>
-                        <p class="project__text">School's Website is an exercise for programming lessons that my friends and I have done, initially my friends and I were led by our teacher and finally we succeeded in creating a school website.
-                        </p>           
-                    </div>                                   
                 </div>
 
                 <div class="project__container bd-grid">
+                    <div>
+                        <h2 class="project__subtitle">School's Website</h2>
+                        <p class="project__text">School's Website is an exercise for programming lessons that my friends
+                            and I have done, initially my friends and I were led by our teacher and finally we succeeded
+                            in creating a school website.
+                        </p>
+                    </div>
+
+                    <div class="project__img">
+                        <img src="assets/websch.png" alt="">
+                    </div>
+                </div>
+
+                <div class="project__container bd-grid">
+                    <div>
+                        <h2 class="project__subtitle">E-commerce Website</h2>
+                        <p class="project__text">E-commerce Website was a website where we were asked to create an
+                            e-commerce website and I ended up choosing the <span style="color: #51557e;">Nike</span>
+                            website to copy even though the website I created was not at all similar to the original
+                            <span style="color: #51557e;">Nike</span> website.
+                        </p>
+                    </div>
+
                     <div class="project__img">
                         <img src="assets/webnike.png" alt="">
                     </div>
-                    
-                    <div>
-                        <h2 class="project__subtitle">E-commerce Website</h2>
-                        <p class="project__text">E-commerce Website was a website where we were asked to create an e-commerce website and I ended up choosing the <span style="color: #51557e;">Nike</span> website to copy even though the website I created was not at all similar to the original <span style="color: #51557e;">Nike</span> website. 
-                        </p>           
-                    </div>                                   
                 </div>
+
+                <div class="project__container bd-grid">
+                    <div>
+                        <h2 class="project__subtitle">L S N</h2>
+                        <p class="project__text">I was Design this design on Figma and the Name of this design is LSN
+                            (Learn Something New) i think i was made many design but this design is different because i
+                            just need some hours to make it 😅 .
+                        </p>
+                    </div>
+
+                    <div class="project__img">
+                        <img src="/assets/lsn.png" alt="">
+                    </div>
+                </div>
+
+                <div class="project__container bd-grid">
+                    <div>
+                        <h2 class="project__subtitle">Skill Forge</h2>
+                        <p class="project__text">UI/UX Skill Forge is an assignment that I did with my friend when we
+                            were assigned to teach at a school and this Skill Forge is the material we taught to them .
+                        </p>
+                    </div>
+
+                    <div class="project__img">
+                        <img src="assets/skillforge.png" alt="">
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!--===== TEACHING =====-->
+            <section class="about section " id="project">
+                <h2 class="section-title">Teaching</h2>
+
+                <div class="teaching__container bd-grid">
+                    <div class="teaching__img">
+                        <img src="assets/idnitcamp.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="teaching__subtitle">IDN IT CAMP Batch 2</h2>
+                        <p class="teaching__text">IT CAMP is one of the programs in IDN Bogor that aims to introduce
+                            children who want to continue their education to junior high school or vocational school at
+                            IDN Boarding School. At this event, the material I presented included the fundamentals of
+                            the materials taught at IDN Boarding School.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="teaching__container bd-grid">
+                    <div class="teaching__img">
+                        <img src="assets/alashr.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="teaching__subtitle">SMP - SMA Al-Ashr Bogor</h2>
+                        <p class="teaching__text">IDN MENGAJAR is one of the programs in IDN Boarding School Junior and
+                            Senior High School that aims to spread the benefits and knowledge we have, thank God I had
+                            the opportunity to participate in IDN Teaching held at Al-Ashr Junior and Senior High School
+                            in Bogor and the material taught was Graphic Design and UI/UX.
+                        </p>
+                    </div>
+                </div>
+
             </section>
 
             <!--===== CERTIFICATION =====-->
@@ -190,10 +253,12 @@
                     <a href="https://dicoding.com/certificates/72ZD92176PYW" target="_blank" class="certificate__img">
                         <img src="/assets/PemrogramanWeb.png" alt="">
                     </a>
-                    <a href="https://www.dicoding.com/certificates/0LZ0GOR20X65" target="_blank" class="certificate__img">
+                    <a href="https://www.dicoding.com/certificates/0LZ0GOR20X65" target="_blank"
+                        class="certificate__img">
                         <img src="/assets/PemrogramanJavaScript.png" alt="">
                     </a>
-                    <a href="https://www.dicoding.com/certificates/72ZD9OLKQPYW" target="_blank" class="certificate__img">
+                    <a href="https://www.dicoding.com/certificates/72ZD9OLKQPYW" target="_blank"
+                        class="certificate__img">
                         <img src="/assets/BelajarDasar-DasarDevOps.png" alt="">
                     </a>
                     <a href="https://dicoding.com/certificates/N9ZO78KW8ZG5" target="_blank" class="certificate__img">
@@ -207,27 +272,41 @@
 
     </main>
 
-        <!--===== FOOTER =====-->
-        
-        <footer class="footer">
-            <p class="footer__title">NADHIF</p>
-            <div class="footer__social">
-                <a href="https://www.instagram.com/alezunadhif/" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.facebook.com/alezuna.nadhif" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://linkedin.com/in/alezunanadhif" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Alezuna Nadhif . | All rigths reserved</p>
-        </footer>
+    <!--===== FOOTER =====-->
 
-        <!-- CRISP -->
-        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="71b09788-1aeb-4a96-ab1f-344f61b64660";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <footer class="footer">
+        <p class="footer__title">NADHIF</p>
+        <div class="footer__social">
+            <a href="https://www.instagram.com/alezunadhif/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/alezuna.nadhif" target="_blank" class="footer__icon"><i
+                    class='bx bxl-facebook'></i></a>
+            <a href="https://linkedin.com/in/alezunanadhif" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Alezuna Nadhif . | All rigths reserved</p>
+    </footer>
+
+    <!-- CRISP -->
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "71b09788-1aeb-4a96-ab1f-344f61b64660";
+        (function () {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="./js/main.js"></script>
+    <!--===== MAIN JS =====-->
+    <script src="./js/main.js"></script>
 
-    </body>
+</body>
+
 </html>
