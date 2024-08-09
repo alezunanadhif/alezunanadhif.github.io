@@ -343,8 +343,8 @@ img {
   margin: 2rem;
 }
 
-/* ===== TEACHING ===== */
-.teaching__img img {
+/* ===== EXPERIENCES ===== */
+.experience__img img {
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -352,27 +352,27 @@ img {
   margin: 0 auto;
 }
 
-.teaching__container {
+.experience__container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.teaching__img {
+.experience__img {
   flex: 1 1 300px; /* Adjust the basis as needed */
   max-width: 100%;
   padding: 10px; /* Optional: for spacing */
 }
 
-.teaching__text {
+.experience__text {
   flex: 1 1 300px; /* Adjust the basis as needed */
   max-width: 100%;
   padding: 10px; /* Optional: for spacing */
 }
 
 @media screen and (max-width: 768px) {
-  .teaching__container {
+  .experience__container {
     flex-direction: column;
   }
 }
@@ -607,5 +607,38 @@ img {
 @media screen and (max-width: 576px) {
   .home__img {
     display: none;
+  }
+}
+
+/* Adjust images within the project section */
+.project__img img,
+.experience__img img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 576px) {
+
+  .project__container,
+  .experience__container {
+    flex-direction: column;
+  }
+
+  .project__img,
+  .experience__img {
+    margin-bottom: var(--mb-2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .project__img img,
+  .experience__img img {
+    width: 100%;
+    margin-bottom: var(--mb-4);
   }
 }
