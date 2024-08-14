@@ -360,15 +360,19 @@ img {
 }
 
 .experience__img {
-  flex: 1 1 300px; /* Adjust the basis as needed */
+  flex: 1 1 300px; 
   max-width: 100%;
-  padding: 10px; /* Optional: for spacing */
+  padding: 10px; 
 }
 
 .experience__text {
-  flex: 1 1 300px; /* Adjust the basis as needed */
+  flex: 1 1 300px;
   max-width: 100%;
-  padding: 10px; /* Optional: for spacing */
+  text-align: justify;
+}
+
+.experience__subtitle {
+  margin-bottom: var(--mb-2);
 }
 
 @media screen and (max-width: 768px) {
