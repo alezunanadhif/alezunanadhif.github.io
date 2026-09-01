@@ -17,4 +17,4 @@ Install the project.
 
 Terminal:
 
-`git clone https://github.com/alezunanadhif/alezunanadhif.github.io`
+`git clone https://github.com/alezunadhif/alezunadhif.github.io`
